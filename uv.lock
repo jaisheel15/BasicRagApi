@@ -1817,7 +1817,7 @@ dependencies = [
     { name = "rank-bm25" },
     { name = "sentence-transformers" },
     { name = "tqdm" },
-    { name = "uvicorn" },
+    { name = "uvicorn", extra = ["standard"] },
 ]
 
 [package.metadata]
@@ -1836,7 +1836,7 @@ requires-dist = [
     { name = "rank-bm25", specifier = ">=0.2.2" },
     { name = "sentence-transformers", specifier = ">=5.4.1" },
     { name = "tqdm", specifier = ">=4.67.3" },
-    { name = "uvicorn", specifier = ">=0.46.0" },
+    { name = "uvicorn", extras = ["standard"], specifier = ">=0.46.0" },
 ]
 
 [[package]]
