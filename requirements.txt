@@ -12,3 +12,4 @@ rank_bm25
 tqdm
 fastapi 
 uvicorn
+python-multipart
