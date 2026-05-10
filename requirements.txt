@@ -1,0 +1,14 @@
+langchain
+langchain_community
+langchain_core
+sentence_transformers
+langchain_huggingface
+langchain_chroma
+chroma
+pymupdf
+langchain_groq
+python-dotenv
+rank_bm25
+tqdm
+fastapi 
+uvicorn
